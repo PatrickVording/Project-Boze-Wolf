@@ -1,0 +1,95 @@
+*	
+	{
+		margin: 0;
+		padding: 0;
+	}
+p	{
+	text-align: justify
+	}	
+.container
+	{
+		height: 1000px;
+		width: 1000px;
+		background-color: white;
+		margin: auto;
+	}
+/*menu gedeelte */	
+.menu
+	{
+		height: 100px;
+		width: 1000px;
+		background-color: white;
+	}
+.menu1
+	{
+		height: 20px;
+		width: 80px;
+		float: right;
+		padding-right: 10px;
+		
+	}
+ul	{
+		list-style-type: none;
+		overflow: hidden;
+	}
+li a {
+    display: block;
+    background-color: white;
+	}	
+.menupic
+	{
+		height: 100px;
+		width: 200px;
+		float: left;
+	}
+	
+/*header gedeelte */	
+.header
+	{
+		Height: 300px;
+		width:1000px;
+		background-color: blue;
+	}
+/*content gedeelte */
+.content
+	{	
+		height: 600px;
+		width: 1000px;
+		background-color: white;
+	}
+
+.vak
+	{ 
+		height: 300px;
+		width: 1000px;
+		margin: 10px;
+	}
+
+	
+.tekstvak
+	{	
+		height: 300px;
+		width: 500px;
+		float: left;
+	}
+.fotovak
+	{
+		height: 300px;
+		width: 500px;
+	}
+.fotovak2
+	{	
+		height: 300px;
+		width: 500px;
+		float: left;
+	}
+
+		
+/*footer gedeelte */
+.footer
+	{
+		height: 100px;
+		width: 1000px;
+		background-color: purple;
+	}
+	
