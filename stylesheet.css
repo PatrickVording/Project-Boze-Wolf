@@ -3,9 +3,11 @@
 		margin: 0;
 		padding: 0;
 	}
+	
 p	{
 	text-align: justify
 	}	
+	
 .container
 	{
 		height: 1000px;
@@ -13,6 +15,7 @@ p	{
 		background-color: white;
 		margin: auto;
 	}
+	
 /*menu gedeelte */	
 .menu
 	{
@@ -20,22 +23,33 @@ p	{
 		width: 1000px;
 		background-color: white;
 	}
+	
 .menu1
 	{
 		height: 20px;
 		width: 80px;
-		float: right;
-		padding-right: 10px;
+		float: left;
+		padding: 20px;
+		margin: 20px 30px 20px 30px;
 		
 	}
+	
 ul	{
 		list-style-type: none;
 		overflow: hidden;
+		width: 100px;
 	}
+	
 li a {
     display: block;
-    background-color: white;
-	}	
+	color: white;
+    background-color: blue;
+	border-radius: 25px;
+	height: 20px;
+	width: 100px;
+	text-align: center;
+	}
+	
 .menupic
 	{
 		height: 100px;
@@ -50,6 +64,7 @@ li a {
 		width:1000px;
 		background-color: blue;
 	}
+	
 /*content gedeelte */
 .content
 	{	
@@ -72,11 +87,13 @@ li a {
 		width: 500px;
 		float: left;
 	}
+	
 .fotovak
 	{
 		height: 300px;
 		width: 500px;
 	}
+	
 .fotovak2
 	{	
 		height: 300px;
@@ -88,7 +105,8 @@ li a {
 /*footer gedeelte */
 .footer
 	{
-		height: 100px;
+		height: 50px;
 		width: 1000px;
-		background-color: purple;
+		background-color: blue;
+		color: white;
 	}
