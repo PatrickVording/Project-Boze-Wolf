@@ -105,11 +105,31 @@ ul	{
 
 		
 /*footer gedeelte */
-.footer
-	{
+
+	
+.footerLeft
+	{ 
 		margin-top: 10px;
 		height: 150px;
-		width: 1000px;
-		background-color: #589BC0;
-		color: white;
+		float: left;
+		background-color:blue;
+		width: 250px;
+	}
+
+.footerMid
+	{ 
+		margin-top: 10px;
+		height: 150px;
+		float: left;
+		background-color:green;
+		width: 500px;
+	}
+
+.footerRight
+	{ 
+		margin-top: 10px;
+		height: 150px;
+		float: left;
+		background-color:red;
+		width: 250px;
 	}
