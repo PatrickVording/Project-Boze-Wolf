@@ -43,7 +43,7 @@ ul	{
 li a {
     display: block;
 	color: white;
-    background-color: blue;
+    background-color: #589BC0;
 	border-radius: 25px;
 	height: 20px;
 	width: 100px;
@@ -60,6 +60,7 @@ li a {
 /*header gedeelte */	
 .header
 	{
+		margin-bottom: 15px;
 		Height: 300px;
 		width:1000px;
 		background-color: blue;
@@ -68,36 +69,31 @@ li a {
 /*content gedeelte */
 .content
 	{	
-		height: 600px;
 		width: 1000px;
 		background-color: white;
 	}
 
 .vak
 	{ 
-		height: 300px;
+		height: 220px;
 		width: 1000px;
-		margin: 10px;
+		margin-top: 10px;
 	}
 
 	
 .tekstvak
 	{	
-		height: 300px;
 		width: 500px;
 		float: left;
 	}
 	
 .fotovak
 	{
-		height: 300px;
-		width: 500px;
 		float: right;
 	}
 	
 .fotovak2
 	{	
-		height: 300px;
 		width: 500px;
 		float: left;
 	}
@@ -106,8 +102,9 @@ li a {
 /*footer gedeelte */
 .footer
 	{
+		margin-top: 10px;
 		height: 50px;
 		width: 1000px;
-		background-color: blue;
+		background-color: #589BC0;
 		color: white;
 	}
