@@ -17,3 +17,8 @@ textarea {
 	width: 275px;
 	resize: none;
 }
+
+li {
+	text-align:left;
+	display: block;
+}
