@@ -142,7 +142,7 @@ ul	{
 
 .footerRight
 	{ 
-		margin-top: 10px;
+		margin-top:10px;
 		height: 150px;
 		float: left;
 		background-color:#589BC0;
@@ -150,24 +150,18 @@ ul	{
 		color: white;
 	}
 	
-<<<<<<< HEAD
 .socialMedia
-=======
-}
-
-.socialmediaicoon2 {
-	margin-top:115px;
-	float:left;
-}
-
-.socialmediaicoon3 {
-	margin-top:119px;
+{
+	float:right;
+	margin-top: 10px;
+	margin-right: 10px;
 }
 
 .footertext1 {
-	color:black;
+	color:white;
 	text-align:center;
 	margin-top:60px;
+	margin-left: 10px;
 }
 
 .footertext2 {
@@ -176,4 +170,4 @@ ul	{
 	margin-top:40px;
 	margin-left:140px;
 }
->>>>>>> a3a9b05db86ca4bce2a226a9a15bc758b2bae9e6
+
