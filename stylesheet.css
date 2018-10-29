@@ -5,7 +5,7 @@
 	}
 	
 p	{
-	text-align: justify
+		text-align: justify
 	}	
 	
 .container
@@ -22,33 +22,32 @@ p	{
 		height: 100px;
 		width: 1000px;
 		background-color: white;
+		overflow: hidden;
 	}
 	
 .menu1
 	{
 		height: 20px;
-		width: 80px;
-		float: left;
-		padding: 20px;
-		margin: 20px 30px 20px 30px;
+		float: right;
+		margin: 25px 50px 0px 50px;
 		
 	}
 	
 ul	{
 		list-style-type: none;
-		overflow: hidden;
+	/*	overflow: hidden; */
 		width: 100px;
 	}
 	
-li a {
-    display: block;
-	color: white;
-    background-color: #589BC0;
-	border-radius: 25px;
-	height: 20px;
-	width: 100px;
-	text-align: center;
-	}
+/*li a {
+		display: block;
+		color: white;
+		background-color: #589BC0;
+		border-radius: 25px;
+		height: 20px;
+		width: 100px;
+		text-align: center;
+	} */
 	
 .menupic
 	{
@@ -71,6 +70,12 @@ li a {
 	{	
 		width: 1000px;
 		background-color: white;
+	}
+	
+.imgMenu
+	{ 
+		width: 150px;
+		height: 50px;
 	}
 
 .vak
@@ -103,7 +108,7 @@ li a {
 .footer
 	{
 		margin-top: 10px;
-		height: 50px;
+		height: 150px;
 		width: 1000px;
 		background-color: #589BC0;
 		color: white;
