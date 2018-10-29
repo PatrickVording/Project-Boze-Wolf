@@ -75,29 +75,28 @@ li a {
 
 .vak
 	{ 
-		height: 300px;
+		height: 200px;
 		width: 1000px;
-		margin: 10px;
 	}
 
 	
 .tekstvak
 	{	
-		height: 300px;
+		height: 200px;
 		width: 500px;
 		float: left;
 	}
 	
 .fotovak
 	{
-		height: 300px;
+		height: 200px;
 		width: 500px;
 		float: right;
 	}
 	
 .fotovak2
 	{	
-		height: 300px;
+		height: 200px;
 		width: 500px;
 		float: left;
 	}
