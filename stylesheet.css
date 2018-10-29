@@ -167,9 +167,15 @@ ul	{
 	margin-top:119px;
 }
 
-.footertext {
+.footertext1 {
 	color:black;
 	text-align:center;
 	margin-top:60px;
 }
 
+.footertext2 {
+	color:black;
+	text-align:center;
+	margin-top:40px;
+	margin-left:140px;
+}
