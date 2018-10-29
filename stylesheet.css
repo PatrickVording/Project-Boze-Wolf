@@ -75,25 +75,43 @@ li a {
 
 .vak
 	{ 
+<<<<<<< HEAD
 		height: 220px;
 		width: 1000px;
 		margin-top: 10px;
+=======
+		height: 200px;
+		width: 1000px;
+>>>>>>> 9aceda94401883d7eea0609084e70fec9646ccb7
 	}
 
 	
 .tekstvak
 	{	
+<<<<<<< HEAD
+=======
+		height: 200px;
+>>>>>>> 9aceda94401883d7eea0609084e70fec9646ccb7
 		width: 500px;
 		float: left;
 	}
 	
 .fotovak
 	{
+<<<<<<< HEAD
+=======
+		height: 200px;
+		width: 500px;
+>>>>>>> 9aceda94401883d7eea0609084e70fec9646ccb7
 		float: right;
 	}
 	
 .fotovak2
 	{	
+<<<<<<< HEAD
+=======
+		height: 200px;
+>>>>>>> 9aceda94401883d7eea0609084e70fec9646ccb7
 		width: 500px;
 		float: left;
 	}
