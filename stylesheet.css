@@ -3,9 +3,19 @@
 		margin: 0;
 		padding: 0;
 	}
-p	{
-	text-align: justify
+	
+p	
+	{
+		text-align: justify;
 	}	
+	
+#footertext	
+	{
+		text-align: justify;
+		margin: 5px 0px 0px 5px;
+	}	
+	
+
 .container
 	{
 		height: 1000px;
@@ -13,31 +23,39 @@ p	{
 		background-color: white;
 		margin: auto;
 	}
+	
 /*menu gedeelte */	
 .menu
 	{
 		height: 100px;
 		width: 1000px;
 		background-color: white;
-		
+		overflow: hidden;
 	}
+	
 .menu1
 	{
 		height: 20px;
-		width: 80px;
 		float: right;
-		padding-right: 10px;
-		margin-top:50px;
-		
+		margin: 25px 50px 0px 50px;
 	}
+	
 ul	{
 		list-style-type: none;
-		overflow: hidden;
+	/*	overflow: hidden; */
+		width: 100px;
 	}
-li a {
-    display: block;
-    background-color: white;
-	}	
+	
+/*li a {
+		display: block;
+		color: white;
+		background-color: #589BC0;
+		border-radius: 25px;
+		height: 20px;
+		width: 100px;
+		text-align: center;
+	} */
+	
 .menupic
 	{
 		height: 100px;
@@ -48,79 +66,110 @@ li a {
 /*header gedeelte */	
 .header
 	{
+		margin-bottom: 15px;
 		Height: 300px;
 		width:1000px;
 		background-color: blue;
 	}
+	
 /*content gedeelte */
 .content
 	{	
-		height: 600px;
 		width: 1000px;
 		background-color: white;
+	}
+	
+.imgMenu
+	{ 
+		width: 150px;
+		height: 50px;
 	}
 
 .vak
 	{ 
-		height: 300px;
+		height: 220px;
 		width: 1000px;
-		margin: 10px;
+		margin-top: 10px;
 	}
 
 	
 .tekstvak
 	{	
-		height: 300px;
 		width: 500px;
 		float: left;
-		margin-top:10px;
 	}
+	
 .fotovak
 	{
-		height: 300px;
-		width: 500px;
+		float: right;
 	}
+	
 .fotovak2
 	{	
-		height: 300px;
 		width: 500px;
 		float: left;
 	}
 
 		
 /*footer gedeelte */
-.footer
-	{
-		height: 25px;
-		width: 1000px;
-		background-color: purple;
+
+	
+.footerLeft
+	{ 
+		margin-top: 10px;
+		height: 150px;
+		float: left;
+		
+		width: 250px;
+		color: white;
+	}
+
+.footerMid
+	{ 
+		margin-top: 10px;
+		height: 150px;
+		float: left;
+		
+		width: 500px;
+		color: white;
+	}
+
+.footerRight
+	{ 
+		margin-top: 10px;
+		height: 150px;
+		float: left;
+		
+		width: 250px;
+		color: white;
 	}
 	
+.socialmediaicoon1 {
+	margin-top:120px;
+	margin-right;500px;
+	float: left;
 	
-.inschrijfbox {
-	height:25px;
-	width:300px;
-	background-color:plum;
-	margin-left:550px;
-	text-align:center;
-	margin-top:10px;
-}
-	
-	
-.contacteren {
-	height:25px;
-	width:300px;
-	background-color:sienna;
-	margin-left:550px;
-	text-align:center;
-	margin-top:10px;
 }
 
-.Opendag {
-	height:25px;
-	width:300px;
-	background-color:plum;
-	margin-left:550px;
+.socialmediaicoon2 {
+	margin-top:115px;
+	float:left;
+}
+
+.socialmediaicoon3 {
+	margin-top:119px;
+}
+
+
+.footertext1 {
+	color:black;
 	text-align:center;
-	margin-top:10px;
+	margin-top:60px;
+}
+
+.footertext2 {
+	color:black;
+	text-align:center;
+	margin-top:40px;
+	margin-left:140px;
 }
