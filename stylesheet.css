@@ -4,10 +4,18 @@
 		padding: 0;
 	}
 	
-p	{
-		text-align: justify
+p	
+	{
+		text-align: justify;
 	}	
 	
+#footertext	
+	{
+		text-align: justify;
+		margin: 5px 0px 0px 5px;
+	}	
+	
+
 .container
 	{
 		height: 1000px;
@@ -30,7 +38,6 @@ p	{
 		height: 20px;
 		float: right;
 		margin: 25px 50px 0px 50px;
-		
 	}
 	
 ul	{
@@ -114,6 +121,7 @@ ul	{
 		float: left;
 		background-color:blue;
 		width: 250px;
+		color: white;
 	}
 
 .footerMid
@@ -123,6 +131,7 @@ ul	{
 		float: left;
 		background-color:green;
 		width: 500px;
+		color: white;
 	}
 
 .footerRight
@@ -132,4 +141,5 @@ ul	{
 		float: left;
 		background-color:red;
 		width: 250px;
+		color: white;
 	}
