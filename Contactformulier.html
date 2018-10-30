@@ -1,0 +1,53 @@
+<!DOCTYPE= html>
+<html>
+	<head>
+		<title>
+		</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+	
+	<body>
+		<form id="contactformulier" method="POST" action="php_contactformulier.php">
+			<legend>Neem contact op met ons</legend>
+				<label for="contact-name">
+					Naam
+				</label>
+					<input type="text" name="name" required id="contact-name"/>
+				<label for="contact-email">
+					Email
+				</label>
+					<input type="email" name="email" required id="contact-email"/>
+				<label for="contact-phone">
+					Telefoonnummer
+				</label>
+					<input type="phone" name="contact_phone" required id="contact_phone"/>
+				<label for="contact-subject">
+					Onderwerp
+				</label>
+					<select id="contact-subject" name="subject">
+						<optgroup label="Ik heb een vraag over het inschrijven voor:">
+							<option value="opleiding" selected>opleidingen</option>
+							<option value="opendag">opendagen</option>
+							<option value="meeloopdag">meeloopdagen</option>
+							<option value="nieuwsbrief">nieuwsbrief</option>
+						</optgroup>
+						<optgroup label="Ik heb een vraag over de opleiding:">
+							<option value="chemie">chemie</option>
+							<option value="Toegepaste wiskunde">toegepaste wiskunde</option>
+						</optgroup>
+						<optgroup label="Andere vragen:">
+							<option value="uitschrijven nieuwsbrief?">Hoe moet ik me uitschrijven voor de nieuwsbrief?</option>
+							<option value="kamers Rotterdam">Waar kan ik een studentenkamer vinden in Rotterdam?</option>
+							<option value="locatie">Bevind de opleiding zich alleen in Rotterdam?</option>
+							<option value="anders">Ik heb een vraag die niet in de lijst staat</option>
+						</optgroup>
+					</select>
+				<label for="contact-message">
+					Opmerkingen
+				</label>
+					<textarea name="comments" id="contact-message" rows="4"></textarea>
+			<input type="submit" name="send" value="Versturen" id="send"/>
+			<input type="reset" value="Reset" id="reset"/>
+        </form>
+	</body>
+</html>

@@ -1,135 +1,40 @@
-*	
-	{
-		margin: 0;
-		padding: 0;
-	}
+body {
+	font-family: arial;
 	
-p	{
-		text-align: justify
-	}	
+}
+
+.submission-form{
+	max-width: 200px;
+	border: 2px;
+	padding: 20px;
+}
+
+label{
+	display:block;
+	font-size: 12px;
+}
 	
-.container
-	{
-		height: 1000px;
-		width: 1000px;
-		background-color: white;
-		margin: auto;
-	}
-	
-/*menu gedeelte */	
-.menu
-	{
-		height: 100px;
-		width: 1000px;
-		background-color: white;
-		overflow: hidden;
-	}
-	
-.menu1
-	{
-		height: 20px;
-		float: right;
-		margin: 25px 50px 0px 50px;
-		
-	}
-	
-ul	{
-		list-style-type: none;
-	/*	overflow: hidden; */
-		width: 100px;
-	}
-	
-/*li a {
-		display: block;
-		color: white;
-		background-color: #589BC0;
-		border-radius: 25px;
-		height: 20px;
-		width: 100px;
-		text-align: center;
-	} */
-	
-.menupic
-	{
-		height: 100px;
+input,textarea, select{
+		display:block;
 		width: 200px;
-		float: left;
-	}
-	
-/*header gedeelte */	
-.header
-	{
-		margin-bottom: 15px;
-		Height: 300px;
-		width:1000px;
-		background-color: blue;
-	}
-	
-/*content gedeelte */
-.content
-	{	
-		width: 1000px;
-		background-color: white;
-	}
-	
-.imgMenu
-	{ 
-		width: 150px;
-		height: 50px;
+		resize: none;
+		margin-bottom: 10px;
+		border: 2px solid #25aae1;
 	}
 
-.vak
-	{ 
-		height: 220px;
-		width: 1000px;
-		margin-top: 10px;
-	}
+#send {
+	border: 2px;
+	background-color: #008B8B;
+	color: white;
+	width: 200px;
+	height: 30px;
+	font-size: 12px;
+}
 
-	
-.tekstvak
-	{	
-		width: 500px;
-		float: left;
-	}
-	
-.fotovak
-	{
-		float: right;
-	}
-	
-.fotovak2
-	{	
-		width: 500px;
-		float: left;
-	}
-
-		
-/*footer gedeelte */
-
-	
-.footerLeft
-	{ 
-		margin-top: 10px;
-		height: 150px;
-		float: left;
-		background-color:blue;
-		width: 250px;
-	}
-
-.footerMid
-	{ 
-		margin-top: 10px;
-		height: 150px;
-		float: left;
-		background-color:green;
-		width: 500px;
-	}
-
-.footerRight
-	{ 
-		margin-top: 10px;
-		height: 150px;
-		float: left;
-		background-color:red;
-		width: 250px;
-	}
+#reset {
+	border: 2px;
+	background-color:#D0D0D0;
+	width: 200px;
+	height: 20px;
+	font-size: 12px;
+}
