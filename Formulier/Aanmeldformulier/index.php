@@ -7,17 +7,17 @@
 	</head>
 	
 	<body>
-		<form id="contactformulier" method="POST" action="process_data.php">
+		<form id="contactformulier" method="POST" action="php_aanmeldformulier.php">
 			<legend>Aanmelden voor een studie</legend>
 			<ul>
 				<li>Voornamen
-					<input type="text" name="name" required id="contact-surname"/>
+					<input type="text" name="surname" required id="contact-surname"/>
 				</li>
 				<li>Tussenvoegsel
-					<input type="text" name="name" required id="contact-lastname"/>
+					<input type="text" name="middlename" id="contact-middlename"/>
 				</li>
 				<li>Achternaam
-					<input type="text" name="name" required id="contact-lastname"/>
+					<input type="text" name="lastname" required id="contact-lastname"/>
 				</li>
 				<li>Email
 					<input type="email" name="email" required id="contact-email"/>
@@ -26,10 +26,10 @@
 					<input type="email" name="email" required id="contact-email"/>
 				</li>
 				<li>Telefoonnummer
-					<input type="phone" name="contact_phone" required id="contact_phone"/>
+					<input type="number" name="contact_phone" maxlength = "10" required id="contact_phone"/>
 				</li>
-				<li>Geboortedatum<em class="msg"> format: DD-MM-JJJJ</em>
-					<input type="text" name="Geboortedatum" required id="Geboortedatum"/>
+				<li>Geboortedatum<em class="msg"></em>
+					<input type="date" name="Geboortedatum" required id="Geboortedatum"/>
 				</li>
 
 				<li>Ik wil me aanmelden voor:
@@ -39,7 +39,7 @@
 					</select>
 				</li>
 			</ul>
-			<input type="submit" name="send" value="Versturen" />
+			<input type="submit" name="submit" value="Versturen" />
 			<input type="reset" value="Reset"/>
         </form>
 	</body>
