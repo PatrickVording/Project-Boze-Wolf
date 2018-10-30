@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
 	$headers = "Aanmeldformulier van: ".$mailFrom;
 	$txt = $surname .$middlename .$lastname .$phone .$geboortedatum .$opleiding;
 
-	mail($mailTo, $subject, $headers, $txt);
+	mail($mailTo, $subject, $txt, $headers);
 	header("Location: index.php?mailsend");
 }
 ?>
