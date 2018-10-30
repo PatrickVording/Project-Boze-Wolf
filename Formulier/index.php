@@ -1,8 +1,7 @@
 <!DOCTYPE= html>
 <html>
 	<head>
-		<title>
-		</title>
+		<title>Formulier</title>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	</head>
 	
@@ -27,7 +26,7 @@
 					<li><label for="contact-subject">
 						Onderwerp
 						</label>
-						<select id="contact-subject" name="subject">
+						<select id="contact-subject" name="onderwerp">
 							<optgroup label="Ik heb een vraag over het inschrijven voor:">
 								<option value="opleiding" selected>opleidingen</option>
 								<option value="opendag">opendagen</option>
@@ -50,7 +49,7 @@
 						<textarea name="comments" id="contact-message" rows="4"></textarea>
 					</li>
 				</ul>
-				<input type="submit" name="send" value="Versturen" />
+				<input type="submit" name="submit" value="Versturen" />
 				<input type="reset" value="Reset"/>
 			</fieldset>
         </form>
