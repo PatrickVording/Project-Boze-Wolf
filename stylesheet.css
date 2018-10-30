@@ -79,10 +79,16 @@ ul	{
 		background-color: white;
 	}
 	
-.imgMenu
+.imgMenu1
 	{ 
 		width: 150px;
 		height: 50px;
+	}
+
+.imgMenu1:hover
+	{
+		background-image: url('Header Knoppen/inloggen menu donker.png');
+		background: blue;
 	}
 
 .vak
@@ -119,7 +125,7 @@ ul	{
 		margin-top: 10px;
 		height: 150px;
 		float: left;
-		background-color:blue;
+		background-color:#589BC0;
 		width: 250px;
 		color: white;
 	}
@@ -129,17 +135,39 @@ ul	{
 		margin-top: 10px;
 		height: 150px;
 		float: left;
-		background-color:green;
+		background-color:#589BC0;
 		width: 500px;
 		color: white;
 	}
 
 .footerRight
 	{ 
-		margin-top: 10px;
+		margin-top:10px;
 		height: 150px;
 		float: left;
-		background-color:red;
+		background-color:#589BC0;
 		width: 250px;
 		color: white;
 	}
+	
+.socialMedia
+{
+	float:right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.footertext1 {
+	color:white;
+	text-align:center;
+	margin-top:60px;
+	margin-left: 10px;
+}
+
+.footertext2 {
+	color:black;
+	text-align:center;
+	margin-top:40px;
+	margin-left:140px;
+}
+
