@@ -8,41 +8,39 @@
 	
 	<body>
 		<form id="contactformulier" method="POST" action="process_data.php">
-			<fieldset>
-				<legend>Aanmelden voor een studie</legend>
-				<ul>
-					<li>Voornamen
-						<input type="text" name="name" required id="contact-surname"/>
-					</li>
-					<li>Tussenvoegsel
-						<input type="text" name="name" required id="contact-lastname"/>
-					</li>
-					<li>Achternaam
-						<input type="text" name="name" required id="contact-lastname"/>
-					</li>
-					<li>Email
-						<input type="email" name="email" required id="contact-email"/>
-					</li>
-					<li>Bevestiging email
-						<input type="email" name="email" required id="contact-email"/>
-					</li>
-					<li>Telefoonnummer
-						<input type="phone" name="contact_phone" required id="contact_phone"/>
-					</li>
-					<li>Geboortedatum<em class="msg"> format: DD-MM-JJJJ</em>
-						<input type="text" name="Geboortedatum" required id="Geboortedatum"/>
-					</li>
+			<legend>Aanmelden voor een studie</legend>
+			<ul>
+				<li>Voornamen
+					<input type="text" name="name" required id="contact-surname"/>
+				</li>
+				<li>Tussenvoegsel
+					<input type="text" name="name" required id="contact-lastname"/>
+				</li>
+				<li>Achternaam
+					<input type="text" name="name" required id="contact-lastname"/>
+				</li>
+				<li>Email
+					<input type="email" name="email" required id="contact-email"/>
+				</li>
+				<li>Bevestiging email
+					<input type="email" name="email" required id="contact-email"/>
+				</li>
+				<li>Telefoonnummer
+					<input type="phone" name="contact_phone" required id="contact_phone"/>
+				</li>
+				<li>Geboortedatum<em class="msg"> format: DD-MM-JJJJ</em>
+					<input type="text" name="Geboortedatum" required id="Geboortedatum"/>
+				</li>
 
-					<li>Ik wil me aanmelden voor:
-						<select id="opleiding" name="opleiding">
-								<option value="Chemie" selected>Chemie</option>
-								<option value="Wiskunde">Wiskunde</option>
-						</select>
-					</li>
-				</ul>
-				<input type="submit" name="send" value="Versturen" />
-				<input type="reset" value="Reset"/>
-			</fieldset>
+				<li>Ik wil me aanmelden voor:
+					<select id="opleiding" name="opleiding">
+							<option value="Chemie" selected>Chemie</option>
+							<option value="Wiskunde">Wiskunde</option>
+					</select>
+				</li>
+			</ul>
+			<input type="submit" name="send" value="Versturen" />
+			<input type="reset" value="Reset"/>
         </form>
 	</body>
 </html>
