@@ -1,14 +1,13 @@
 <!DOCTYPE= html>
 <html>
 	<head>
-		<title>Formulier</title>
+		<title>Contactformulier</title>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	</head>
 	
 	<body>
 		<form id="contactformulier" method="POST" action="php_contactformulier.php">
-			<fieldset>
-				<legend>Neem contact op met ons</legend>
+			<h1>Contactformulier</h1>
 				<ul>
 					<li><label>Naam
 						<input type="text" name="name" required id="contact-name"/>
@@ -51,7 +50,6 @@
 				</ul>
 				<input type="submit" name="submit" value="Versturen" />
 				<input type="reset" value="Reset"/>
-			</fieldset>
         </form>
 	</body>
 </html>
