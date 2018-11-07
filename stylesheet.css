@@ -173,6 +173,9 @@ ul	{
 
 
 /* FORMULIEREN */
+#contactformulier {
+	margin-left: 20px;
+}
 
 .submission-form{
 	max-width: 200px;
