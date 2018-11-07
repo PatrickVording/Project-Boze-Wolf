@@ -14,6 +14,6 @@ if (isset($_POST['submit'])) {
 	$txt = $surname .$middlename .$lastname .$phone .$geboortedatum .$opleiding;
 
 	mail($mailTo, $subject, $txt, $headers);
-	header("Location: index.php?mailsend");
+	header("Location: aanmeldformulier.html?mailsend");
 }
 ?>

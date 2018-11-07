@@ -12,6 +12,6 @@ if (isset($_POST['submit'])) {
 	$txt = $name .$phone .$onderwerp .$comments;
 
 	mail($mailTo, $subject, $headers, $txt);
-	header("Location: index.php?mailsend");
+	header("Location: contactformulier.html?mailsend");
 }
 ?>
