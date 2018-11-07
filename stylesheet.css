@@ -178,10 +178,7 @@ ul	{
 /* FORMULIEREN */
 
 .content2 {
-	background-size: cover;
-	background-image: url("images/studeren.png");
-	width: 1000px;
-	height: 454px;
+
 }
 #contactformulier {
 	float: left;
