@@ -3,7 +3,7 @@
 		margin: 0;
 		padding: 0;
 	}
-	
+        
 p	
 	{
 		text-align: justify;
@@ -122,7 +122,6 @@ ul	{
 	
 .footerLeft
 	{ 
-		float: left;
 		margin-top: 10px;
 		height: 150px;
 		float: left;
@@ -133,7 +132,6 @@ ul	{
 
 .footerMid
 	{ 
-		float: left;
 		margin-top: 10px;
 		height: 150px;
 		float: left;
@@ -144,7 +142,6 @@ ul	{
 
 .footerRight
 	{ 
-		float: left;
 		margin-top:10px;
 		height: 150px;
 		float: left;
@@ -174,53 +171,33 @@ ul	{
 	margin-left:140px;
 }
 
-
-/* FORMULIEREN */
-.content2 {
-	width: 1000px;
-	height: 454px;
-}
-#contactformulier {
-	float: left;
-	margin-left: 20px;
-}
-#contactformulier2 {
-	float: right;
-	margin-right: 20px;
+.feed {
+    width:990px;
+    float:left;
 }
 
-.submission-form{
-	max-width: 200px;
-	border: 2px;
-	padding: 20px;
+.feed li{
+    width:990px;
+    height:150px;
+    text-align:justify;
+    margin-bottom: 10px;
+    margin-top:30px;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right:5px;
 }
 
-label{
-	display:block;
-	font-size: 12px;
-}
-	
-input,textarea, select{
-		display:block;
-		width: 200px;
-		resize: none;
-		margin-bottom: 10px;
-		border: 2px solid #25aae1;
-	}
-
-#send {
-	border: 2px;
-	background-color: #008B8B;
-	color: white;
-	width: 200px;
-	height: 30px;
-	font-size: 12px;
+.feed a:link {
+   font-weight:bold;
+   color:#000000;
 }
 
-#reset {
-	border: 2px;
-	background-color:#D0D0D0;
-	width: 200px;
-	height: 20px;
-	font-size: 12px;
+.feed a:visited {
+    color:#008B8B;
+    font-weight:bold;
+}
+
+.feed a:hover {
+    color:#37fff0;
+    font-weight:bold;
 }
