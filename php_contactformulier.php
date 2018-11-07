@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
 
 	$mailTo = "sam@pigeonjohn.nl";
 	$headers = "Contactformulier van: ".$mailFrom;
-	$txt = $name .$phone .$onderwerp .$comments;
+	$txt = $name . $phone . $onderwerp . $comments;
 
 	mail($mailTo, $subject, $headers, $txt);
 	header("Location: contactformulier.html?mailsend");
