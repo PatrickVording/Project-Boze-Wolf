@@ -122,6 +122,7 @@ ul	{
 	
 .footerLeft
 	{ 
+		float: left;
 		margin-top: 10px;
 		height: 150px;
 		float: left;
@@ -132,6 +133,7 @@ ul	{
 
 .footerMid
 	{ 
+		float: left;
 		margin-top: 10px;
 		height: 150px;
 		float: left;
@@ -142,6 +144,7 @@ ul	{
 
 .footerRight
 	{ 
+		float: left;
 		margin-top:10px;
 		height: 150px;
 		float: left;
@@ -173,8 +176,17 @@ ul	{
 
 
 /* FORMULIEREN */
+.content2 {
+	width: 1000px;
+	height: 454px;
+}
 #contactformulier {
+	float: left;
 	margin-left: 20px;
+}
+#contactformulier2 {
+	float: right;
+	margin-right: 20px;
 }
 
 .submission-form{

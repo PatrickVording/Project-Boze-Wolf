@@ -24,7 +24,11 @@
 			</div>	
 			<div class="menu1">
 				<ul>
+<<<<<<< HEAD
 					<li><a href="contact.html"><img class="imgMenu" border="0" alt="contact" src="Header Knoppen/contactmenu.png"/>  </a></li>
+=======
+					<li><a href="contactformulier.html"><img class="imgMenu" border="0" alt="contact" src="Header Knoppen/contactmenu.png"/>  </a></li>
+>>>>>>> d833b20a10cf78c22c6d59732e6f9070814450ad
 				</ul>
 			</div>	
 			<div class="menu1">
@@ -38,7 +42,7 @@
 		</div>
 
 
-		<div class="content">
+		<div class="content2">
 			<div id="contactformulier">
 				<form method="POST" action="php_aanmeldformulier.php">
 					<legend>Aanmelden voor een studie</legend>
@@ -81,6 +85,48 @@
 					<input type="reset" value="Reset" id="reset" />
 				</form>
 			</div>
+			<div id="contactformulier2">
+				<form method="POST" action="php_aanmeldformulier.php">
+					<legend>Aanmelden voor een meeloopdag</legend>
+					<label for="contact-surname">
+						Voornamen
+					</label>
+					<input type="text" name="surname" required id="contact-surname"/>
+					<label for="contact-middlename">
+						Tussenvoegsel
+						<input type="text" name="middlename" id="contact-middlename"/>
+					</label>
+					<label for="conact-lastname">
+						Achternaam
+					</label>
+					<input type="text" name="lastname" required id="contact-lastname"/>
+					<label for="contact-email">
+						Email
+					</label>
+					<input type="email" name="email" required id="contact-email"/>
+					<label for="contact-email">
+						Bevestiging email
+					</label>
+					<input type="email" name="email" required id="contact-email"/>
+					<label for="contact_phone">
+						Telefoonnummer
+					</label>
+					<input type="number" name="contact_phone" maxlength = "10" required id="contact_phone"/>
+					<label for="Geboortedatum">
+						Geboortedatum
+					</label>
+					<input type="date" name="Geboortedatum" required id="Geboortedatum"/>
+					<label for="opleding">
+						Ik wil me aanmelden voor:
+					</label>
+					<select id="opleiding" name="opleiding">
+						<option value="Meeloopdag Chemie" selected>Meeloopdag Chemie</option>
+						<option value="Meeloopdag Wiskunde">Meeloopdag Wiskunde</option>
+					</select>
+					<input type="submit" name="submit" value="Versturen" id="send" />
+					<input type="reset" value="Reset" id="reset" />
+				</form>
+			</div>
 		</div>
 
 
@@ -96,6 +142,7 @@
 					<p><a href="studiekeuze.html">Hulp nodig met uw studiekeuze?</p>
 						<p><a href="evenementen.html">Informatie over evenementen</p> 
 							<p><a href="berghuisvanwindenstuderen.html">Studeren bij het Berghuis van-Winden Lyceum</p>
+								<p><a href="contactformulier.html">Contact</p>
 							</div>
 						</div>
 
