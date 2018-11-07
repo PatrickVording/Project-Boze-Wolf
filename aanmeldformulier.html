@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<div class="container">
+		<div class="menu">
+			<div class="menupic">
+				<a href="home.html"><img class="foto" src="images/logo.png" alt="logo" height="100px" width="120px"></a>
+			</div>	
+			<div class="menu1">
+				<ul>
+					<a href="aanmeldformulier.html"><img class="imgMenu" border="0" alt="inschrijven" src="Header Knoppen/inschrijven menu.png"/></a>
+				</ul>
+			</div>	
+			<div class="menu1">
+				<ul>
+					<li><a href=""><img class="imgMenu" border="0" alt="evenementen" src="Header Knoppen/evenementen menu.png"/>  </a></li>
+				</ul>
+			</div>	
+			<div class="menu1">
+				<ul>
+					<li><a href=""><img class="imgMenu" border="0" alt="contact" src="Header Knoppen/contactmenu.png"/>  </a></li>
+				</ul>
+			</div>	
+			<div class="menu1">
+				<ul>
+					<li><a href="opleidingen.html"><img class="imgMenu" border="0" alt="opleidingen" src="Header Knoppen/opleidingen menu.png"/>  </a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="header">
+			<img class="foto2" src="images/header.jpg"  alt="headerimage">
+		</div>
+
+
+		<div class="content">
+			<div id="contactformulier">
+				<form method="POST" action="php_aanmeldformulier.php">
+					<legend>Aanmelden voor een studie</legend>
+					<label for="contact-surname">
+						Voornamen
+					</label>
+					<input type="text" name="surname" required id="contact-surname"/>
+					<label for="contact-middlename">
+						Tussenvoegsel
+						<input type="text" name="middlename" id="contact-middlename"/>
+					</label>
+					<label for="conact-lastname">
+						Achternaam
+					</label>
+					<input type="text" name="lastname" required id="contact-lastname"/>
+					<label for="contact-email">
+						Email
+					</label>
+					<input type="email" name="email" required id="contact-email"/>
+					<label for="contact-email">
+						Bevestiging email
+					</label>
+					<input type="email" name="email" required id="contact-email"/>
+					<label for="contact_phone">
+						Telefoonnummer
+					</label>
+					<input type="number" name="contact_phone" maxlength = "10" required id="contact_phone"/>
+					<label for="Geboortedatum">
+						Geboortedatum
+					</label>
+					<input type="date" name="Geboortedatum" required id="Geboortedatum"/>
+					<label for="opleding">
+						Ik wil me aanmelden voor:
+					</label>
+					<select id="opleiding" name="opleiding">
+						<option value="Chemie" selected>Chemie</option>
+						<option value="Wiskunde">Wiskunde</option>
+					</select>
+					<input type="submit" name="submit" value="Versturen" id="send" />
+					<input type="reset" value="Reset" id="reset" />
+				</form>
+			</div>
+		</div>
+
+
+		<div class="footerLeft">
+			<div class="footertext1">
+				<p>info@berghuisvanwinden.nl</p>
+				<p>+010-5892309</p>
+			</div>
+		</div>
+		<div class="footerMid">
+			<div class="footertext2">
+				<p><a href="opleidingen.html">Opleidingen</p>
+					<p><a href="studiekeuze.html">Hulp nodig met uw studiekeuze?</p>
+						<p><a href="evenementen.html">Informatie over evenementen</p> 
+							<p><a href="berghuisvanwindenstuderen.html">Studeren bij het Berghuis van-Winden Lyceum</p>
+							</div>
+						</div>
+
+						<div class="footerRight">
+
+							<div class="socialMedia">
+								<img src="images/Instagram-Icon.png" alt="Instagram Icon" height="35px" width="35px">
+							</div>
+							<div class="socialMedia">
+								<img src="images/twitter-squared.png" alt="twitter Icon" height="35px" width="35px">
+							</div>
+							<div class="socialMedia">
+								<img src="images/1000px-F_icon.svg.png" alt="twitter Icon" height="35px" width="35px">
+							</div>
+
+
+
+						</div>
+
+					</div>
+				</body>
+
+				</html>

@@ -171,3 +171,41 @@ ul	{
 	margin-left:140px;
 }
 
+
+/* FORMULIEREN */
+
+.submission-form{
+	max-width: 200px;
+	border: 2px;
+	padding: 20px;
+}
+
+label{
+	display:block;
+	font-size: 12px;
+}
+	
+input,textarea, select{
+		display:block;
+		width: 200px;
+		resize: none;
+		margin-bottom: 10px;
+		border: 2px solid #25aae1;
+	}
+
+#send {
+	border: 2px;
+	background-color: #008B8B;
+	color: white;
+	width: 200px;
+	height: 30px;
+	font-size: 12px;
+}
+
+#reset {
+	border: 2px;
+	background-color:#D0D0D0;
+	width: 200px;
+	height: 20px;
+	font-size: 12px;
+}
