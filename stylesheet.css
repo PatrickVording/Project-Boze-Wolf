@@ -3,9 +3,13 @@
 		margin: 0;
 		padding: 0;
 	}
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	color: #000000;
+}
 	
-p	
-	{
+p	{
 		text-align: justify;
 	}	
 	
@@ -178,13 +182,38 @@ ul	{
 /* FORMULIEREN */
 
 .content2 {
-
+		width: 1000px;
+		background-color: white;
+		float:left;
 }
+
+#Imagebox {
+	margin-top: 35px;
+	margin-left: 25px;
+	width: 500px;
+	float:left;
+}
+
+#Imagebox2 {
+	margin-top: 35px;
+	margin-left: 75px;
+	width: 500px;
+	float:left;
+}
+
+#Imagebox2 img {
+	width: 700px;
+	height:380px;
+}
+
 #contactformulier {
+	width: 204px;
 	float: left;
 	margin-left: 20px;
 }
+
 #contactformulier2 {
+	width: 204px;
 	float: right;
 	margin-right: 20px;
 }
