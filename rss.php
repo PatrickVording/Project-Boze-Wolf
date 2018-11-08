@@ -34,7 +34,7 @@
 					</div>
 			</div>
 			<div class="header">
-				<img class="foto2" src="images/headerimage.jpg"  alt="headerimage">
+				<img class="foto2" src="images/header.jpg"  alt="headerimage">
 			</div>
 			<div class="content">
 				<?php
