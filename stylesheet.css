@@ -3,9 +3,13 @@
 		margin: 0;
 		padding: 0;
 	}
-        
-p	
-	{
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	color: #000000;
+}
+	
+p	{
 		text-align: justify;
 	}	
 	
@@ -87,7 +91,7 @@ ul	{
 
 .imgMenu1:hover
 	{
-		background-image: url('Header Knoppen/inloggen menu donker.png');
+		background-image: url('Headerknoppen/inloggen menu donker.png');
 		background: blue;
 	}
 
@@ -122,6 +126,7 @@ ul	{
 	
 .footerLeft
 	{ 
+		float: left;
 		margin-top: 10px;
 		height: 150px;
 		float: left;
@@ -132,6 +137,7 @@ ul	{
 
 .footerMid
 	{ 
+		float: left;
 		margin-top: 10px;
 		height: 150px;
 		float: left;
@@ -142,6 +148,7 @@ ul	{
 
 .footerRight
 	{ 
+		float: left;
 		margin-top:10px;
 		height: 150px;
 		float: left;
@@ -171,33 +178,78 @@ ul	{
 	margin-left:140px;
 }
 
-.feed {
-    width:990px;
-    float:left;
+
+/* FORMULIEREN */
+
+.content2 {
+		width: 1000px;
+		background-color: white;
+		float:left;
 }
 
-.feed li{
-    width:990px;
-    height:150px;
-    text-align:justify;
-    margin-bottom: 10px;
-    margin-top:30px;
-    border: 1px solid black;
-    padding-left: 5px;
-    padding-right:5px;
+#Imagebox {
+	margin-top: 35px;
+	margin-left: 25px;
+	width: 500px;
+	float:left;
 }
 
-.feed a:link {
-   font-weight:bold;
-   color:#000000;
+#Imagebox2 {
+	margin-top: 35px;
+	margin-left: 75px;
+	width: 500px;
+	float:left;
 }
 
-.feed a:visited {
-    color:#008B8B;
-    font-weight:bold;
+#Imagebox2 img {
+	width: 700px;
+	height:380px;
 }
 
-.feed a:hover {
-    color:#37fff0;
-    font-weight:bold;
+#contactformulier {
+	width: 204px;
+	float: left;
+	margin-left: 20px;
+}
+
+#contactformulier2 {
+	width: 204px;
+	float: right;
+	margin-right: 20px;
+}
+
+.submission-form{
+	max-width: 200px;
+	border: 2px;
+	padding: 20px;
+}
+
+label{
+	display:block;
+	font-size: 12px;
+}
+	
+input,textarea, select{
+		display:block;
+		width: 200px;
+		resize: none;
+		margin-bottom: 10px;
+		border: 2px solid #25aae1;
+	}
+
+#send {
+	border: 2px;
+	background-color: #008B8B;
+	color: white;
+	width: 200px;
+	height: 30px;
+	font-size: 12px;
+}
+
+#reset {
+	border: 2px;
+	background-color:#D0D0D0;
+	width: 200px;
+	height: 20px;
+	font-size: 12px;
 }
