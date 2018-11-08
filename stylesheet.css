@@ -178,7 +178,32 @@ ul	{
 	margin-left:140px;
 }
 
-
+.feed {
+    width:990px;
+    float:left;
+}
+.feed li{
+    width:990px;
+    height:150px;
+    text-align:justify;
+    margin-bottom: 10px;
+    margin-top:30px;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right:5px;
+}
+.feed a:link {
+   font-weight:bold;
+   color:#000000;
+}
+.feed a:visited {
+    color:#008B8B;
+    font-weight:bold;
+}
+.feed a:hover {
+    color:#37fff0;
+    font-weight:bold;
+}
 /* FORMULIEREN */
 
 .content2 {
