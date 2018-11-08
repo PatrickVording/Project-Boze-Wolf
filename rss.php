@@ -10,26 +10,26 @@
 		<div class="container">
 			<div class="menu">
 				<div class="menupic">
-						<img class="foto" src="images/Logo.png" alt="logo" height="100px" width="120px">
+						<a href="home.html"><img class="foto" src="images/logo.png" alt="logo" height="100px" width="120px"></a>
 				</div>	
 					<div class="menu1">
 						<ul>
-							<a href=""><img class="imgMenu" border="0" alt="inschrijven" src="Header Knoppen/inschrijven menu.png"/></a>
+							<a href="aanmeldformulier.html"><img class="imgMenu" border="0" alt="inschrijven" src="Headerknoppen/inschrijven menu.png"/></a>
 						</ul>
 					</div>	
 					<div class="menu1">
 						<ul>
-							<li><a href=""><img class="imgMenu" border="0" alt="evenementen" src="Header Knoppen/evenementen menu.png"/>  </a></li>
+							<li><a href="rss.php"><img class="imgMenu" border="0" alt="evenementen" src="Headerknoppen/evenementen menu.png"/>  </a></li>
 						</ul>
 					</div>	
 					<div class="menu1">
 						<ul>
-							<li><a href=""><img class="imgMenu" border="0" alt="studiekeuze" src="Header Knoppen/studiekeuze menu.png"/>  </a></li>
+							<li><a href="contactformulier.html"><img class="imgMenu" border="0" alt="contact" src="Headerknoppen/contactmenu.png"/>  </a></li>
 						</ul>
 					</div>	
 					<div class="menu1">
 						<ul>
-							<li><a href="opleidingen.html"><img class="imgMenu" border="0" alt="opleidingen" src="Header Knoppen/opleidingen menu.png"/>  </a></li>
+							<li><a href="opleidingen.html"><img class="imgMenu" border="0" alt="opleidingen" src="Headerknoppen/opleidingen menu.png"/>  </a></li>
 						</ul>
 					</div>
 			</div>
@@ -61,7 +61,7 @@
 						<div class="footertext2">
 							<p><a href="opleidingen.html">Opleidingen</p>
 							<p><a href="studiekeuze.html">Hulp nodig met uw studiekeuze?</p>
-							<p><a href="evenementen.html">Informatie over evenementen</p> 
+							<p><a href="rss.php">Informatie over evenementen</p> 
 							<p><a href="berghuisvanwindenstuderen.html">Studeren bij het Berghuis van-Winden Lyceum</p>
 						</div>
 					</div>
