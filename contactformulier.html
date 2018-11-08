@@ -1,129 +1,117 @@
 <!DOCTYPE html>
-
-<html>
-<head>
-	<title>Home</title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-	<div class="container">
+<html lang="nl">
+	<head>
+		<title>Contact</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+	<body>
+		<div class="container">
 			<div class="menu">
 				<div class="menupic">
-						<a href="home.html"><img class="foto" src="images/logo.png" alt="logo" height="100px" width="120px"></a>
-				</div>	
-					<div class="menu1">
-						<ul>
-							<a href="aanmeldformulier.html"><img class="imgMenu" border="0" alt="inschrijven" src="Headerknoppen/inschrijven menu.png"/></a>
-						</ul>
-					</div>	
-					<div class="menu1">
-						<ul>
-							<li><a href="rss.php"><img class="imgMenu" border="0" alt="evenementen" src="Headerknoppen/evenementen menu.png"/>  </a></li>
-						</ul>
-					</div>	
-					<div class="menu1">
-						<ul>
-							<li><a href="contactformulier.html"><img class="imgMenu" border="0" alt="contact" src="Headerknoppen/contactmenu.png"/>  </a></li>
-						</ul>
-					</div>	
-					<div class="menu1">
-						<ul>
-							<li><a href="opleidingen.html"><img class="imgMenu" border="0" alt="opleidingen" src="Headerknoppen/opleidingen menu.png"/>  </a></li>
-						</ul>
-					</div>
+					<a href="home.html"><img class="foto" src="images/logo.png" alt="logo" height="100px" width="120px"></a>
+				</div>
+				<div class="menu1">
+					<ul>
+						<a href="aanmeldformulier.html"><img class="imgMenu" border="0" alt="inschrijven" src="Headerknoppen/inschrijven menu.png"/></a>
+					</ul>
+				</div>
+				<div class="menu1">
+					<ul>
+						<li><a href="rss.php"><img class="imgMenu" border="0" alt="evenementen" src="Headerknoppen/evenementen menu.png"/>  </a></li>
+					</ul>
+				</div>
+				<div class="menu1">
+					<ul>
+						<li><a href="contactformulier.html"><img class="imgMenu" border="0" alt="contact" src="Headerknoppen/contactmenu.png"/>  </a></li>
+					</ul>
+				</div>
+				<div class="menu1">
+					<ul>
+						<li><a href="opleidingen.html"><img class="imgMenu" border="0" alt="opleidingen" src="Headerknoppen/opleidingen menu.png"/>  </a></li>
+					</ul>
+				</div>
 			</div>
-		
-		<div class="header">
-			<img class="foto2" src="images/header.jpg"  alt="headerimage">
-		</div>
-
-
-		<div class="content2">
-			<div id="contactformulier">
-				<form id="contactformulier" method="POST" action="php_contactformulier.php">
-					<legend>Contactformulier</legend>
-					<label for="contact-name">
+			<div class="header">
+				<img class="foto2" src="images/header.jpg"  alt="headerimage">
+			</div>
+			<div class="content2">
+				<div id="contactformulier">
+					<form id="contactformulier" method="POST" action="php_contactformulier.php">
+						<legend>Contactformulier</legend>
+						<label for="contact-name">
 						Naam
-					</label>
-					<input type="text" name="name" required id="contact-name"/>
-					<label for="contact-email">
+						</label>
+						<input type="text" name="name" required id="contact-name"/>
+						<label for="contact-email">
 						Email
-					</label>
-					<input type="email" name="email" required id="contact-email"/>
-					<label for="contact-phone">
+						</label>
+						<input type="email" name="email" required id="contact-email"/>
+						<label for="contact-phone">
 						Telefoonnummer
-					</label>
-					<input type="phone" name="contact_phone" required id="contact_phone"/>
-					<label for="contact-subject">
+						</label>
+						<input type="phone" name="contact_phone" required id="contact_phone"/>
+						<label for="contact-subject">
 						Onderwerp
-					</label>
-					<select id="contact-subject" name="onderwerp">
-						<optgroup label="Ik heb een vraag over het inschrijven voor:">
-							<option value="opleiding" selected>opleidingen</option>
-							<option value="opendag">opendagen</option>
-							<option value="meeloopdag">meeloopdagen</option>
-							<option value="nieuwsbrief">nieuwsbrief</option>
-						</optgroup>
-						<optgroup label="Ik heb een vraag over de opleiding:">
-							<option value="chemie">chemie</option>
-							<option value="Toegepaste wiskunde">toegepaste wiskunde</option>
-						</optgroup>
-						<optgroup label="Andere vragen:">
-							<option value="uitschrijven nieuwsbrief?">Hoe moet ik me uitschrijven voor de nieuwsbrief?</option>
-							<option value="kamers Rotterdam">Waar kan ik een studentenkamer vinden in Rotterdam?</option>
-							<option value="locatie">Bevind de opleiding zich alleen in Rotterdam?</option>
-							<option value="anders">Ik heb een vraag die niet in de lijst staat</option>
-						</optgroup>
-					</select>
-					<label for="contact-message">
+						</label>
+						<select id="contact-subject" name="onderwerp">
+							<optgroup label="Ik heb een vraag over het inschrijven voor:">
+								<option value="opleiding" selected>opleidingen</option>
+								<option value="opendag">opendagen</option>
+								<option value="meeloopdag">meeloopdagen</option>
+								<option value="nieuwsbrief">nieuwsbrief</option>
+							</optgroup>
+							<optgroup label="Ik heb een vraag over de opleiding:">
+								<option value="chemie">chemie</option>
+								<option value="Toegepaste wiskunde">toegepaste wiskunde</option>
+							</optgroup>
+							<optgroup label="Andere vragen:">
+								<option value="uitschrijven nieuwsbrief?">Hoe moet ik me uitschrijven voor de nieuwsbrief?</option>
+								<option value="kamers Rotterdam">Waar kan ik een studentenkamer vinden in Rotterdam?</option>
+								<option value="locatie">Bevind de opleiding zich alleen in Rotterdam?</option>
+								<option value="anders">Ik heb een vraag die niet in de lijst staat</option>
+							</optgroup>
+						</select>
+						<label for="contact-message">
 						Opmerkingen
-					</label>
-					<textarea name="comments" id="contact-message" rows="4"></textarea>
-					<input type="submit" name="submit" value="Versturen" id="send" />
-					<input type="reset" value="Reset" id="reset" />
-				</form>
+						</label>
+						<textarea name="comments" id="contact-message" rows="4"></textarea>
+						<input type="submit" name="submit" value="Versturen" id="send" />
+						<input type="reset" value="Reset" id="reset" />
+					</form>
+				</div>
+				<div id="Imagebox2">
+					<img src="images/contact.png" alt="Telefoon met beeldscherm">
+				</div>
 			</div>
-			
-			<div id="Imagebox2">
-				<img src="images/contact.png" alt="Telefoon met beeldscherm">
+			<div class="footerLeft">
+				<div class="footertext1">
+					<p>info@berghuisvanwinden.nl</p>
+					<p>+010-5892309</p>
+				</div>
 			</div>
-		</div>
-
-
-		<div class="footerLeft">
-			<div class="footertext1">
-				<p>info@berghuisvanwinden.nl</p>
-				<p>+010-5892309</p>
-			</div>
-		</div>
-		<div class="footerMid">
-			<div class="footertext2">
-				<p><a href="opleidingen.html">Opleidingen</p>
+			<div class="footerMid">
+				<div class="footertext2">
+					<p><a href="opleidingen.html">Opleidingen</p>
 					<p><a href="studiekeuze.html">Hulp nodig met uw studiekeuze?</p>
-						<p><a href="rss.php">Informatie over evenementen</p> 
-							<p><a href="berghuisvanwindenstuderen.html">Studeren bij het Berghuis van-Winden Lyceum</p>
-								<p><a href="contactformulier.html">Contact</p>
-							</div>
-						</div>
+					<p><a href="rss.php">Informatie over evenementen</p>
+					<p><a href="berghuisvanwindenstuderen.html">Studeren bij het Berghuis van-Winden Lyceum</p>
+					<p><a href="contactformulier.html">Contact</p>
+				</div>
+			</div>
+			<div class="footerRight">
+				<div class="socialMedia">
+					<img src="images/Instagram-Icon.png" alt="Instagram Icon" height="35px" width="35px">
+				</div>
+				<div class="socialMedia">
+					<img src="images/twitter-squared.png" alt="twitter Icon" height="35px" width="35px">
+				</div>
+				<div class="socialMedia">
+					<img src="images/1000px-F_icon.svg.png" alt="twitter Icon" height="35px" width="35px">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
 
-						<div class="footerRight">
-
-							<div class="socialMedia">
-								<img src="images/Instagram-Icon.png" alt="Instagram Icon" height="35px" width="35px">
-							</div>
-							<div class="socialMedia">
-								<img src="images/twitter-squared.png" alt="twitter Icon" height="35px" width="35px">
-							</div>
-							<div class="socialMedia">
-								<img src="images/1000px-F_icon.svg.png" alt="twitter Icon" height="35px" width="35px">
-							</div>
-
-
-
-						</div>
-
-					</div>
-				</body>
-
-				</html>
